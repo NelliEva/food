@@ -6,8 +6,8 @@ body{
 
 }
 @media
-   (min-width: 375px) 
-  (max-width: 667px) 
+   (min-width: 30em) 
+  and(max-width:80em) 
  { 
 
 }
