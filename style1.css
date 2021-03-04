@@ -97,7 +97,7 @@ h2{
 .sidenav a {
   padding: 8px 8px 8px 8px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1em;/*25px;*/
   color: white;
   display: block;
   transition: 0.3s;
@@ -151,7 +151,7 @@ h2{
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: 22px;
+  font-size: 1em;/*22px;*/
   text-decoration: none;
 }
 
@@ -178,7 +178,7 @@ z-index:1;
 
 .drpd-usa a{
 	color: white;
-  font-size:22px;
+  font-size: 1em;/*22px;*/
   text-decoration: none;
   text-align: center;
 }
