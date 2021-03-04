@@ -2,15 +2,9 @@ body{
 	margin: 0px;
 	/*background-color: rgba(255, 155, 149, 0.5);*/
 	background-color: rgba(255, 255, 255, 1);
-	
-
 }
-@media
-   (min-width: 30em) 
-  and(max-width:80em) 
- { 
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (min-device-font-size: 50px)
 
-}
 .container{
 	display: flex;
 	flex-wrap: wrap;
@@ -54,7 +48,7 @@ h2{
 	background-color:  rgba(255, 155, 149, 0.6);
 	box-shadow: 4px 4px 5px rgba(255, 155, 149, 0.7);
 	font-style: none;
-	font-size: 2em;
+	font-size: 4vw;
 	border-style: none;
 	border-bottom: 2px;
 	border-right: 2px;
@@ -103,7 +97,8 @@ h2{
 .sidenav a {
   padding: 8px 8px 8px 8px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 4vw; 
+  /*25px*/
   color: white;
   display: block;
   transition: 0.3s;
@@ -113,7 +108,8 @@ h2{
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  font-size: 4vw;
+  /*36px;*/
   margin-left: 50px;
 }
 
@@ -157,7 +153,8 @@ h2{
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: 22px;
+  font-size: 4vw;
+  /*22px;*/
   text-decoration: none;
 }
 
@@ -184,7 +181,8 @@ z-index:1;
 
 .drpd-usa a{
 	color: white;
-  font-size: 22px;
+  font-size: 4vw;
+  /*22px;*/
   text-decoration: none;
   text-align: center;
 }
