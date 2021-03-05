@@ -83,3 +83,9 @@ li{
 
 
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  .container {display: block; }
+  .pic{height: 600px;}
+   img{ width: 450px; height: 450px; padding-bottom: 30px;}
+   h2 {font-size: 4vw; }
+ }
