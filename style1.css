@@ -202,7 +202,7 @@ h2{
   .drpd-usa a {font-size: 4.5vw;}
   .drpd-usa  { min-width: 70vw; margin-right: 20vw;}
 */
-
+/*/////////PHONE////////////////////////////////////////////////////////////////*/
 @media only screen and (min-width: 600px) {
    .menu li {width: 25%;}
    .dropdown-content li {width: 25%;}
@@ -213,11 +213,15 @@ h2{
   .dropdown-content li {width: 25%;}
   .drpd-usa li {width: 25%;}
 }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
-  .container {display: block;}
-  
+  .container {display: block; }
+  .pic{height: 600px;}
+   img{ width: 450px; height: 450px; padding-bottom: 30px;}
+   h2 {font-size: 4vw; }
+   .dropbtn {font-size: 5vw; height: 80px;}
+
 }
+
 
 /*/////HOVER///////*/
 
