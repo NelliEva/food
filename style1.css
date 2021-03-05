@@ -4,11 +4,8 @@ body{
 	background-color: rgba(255, 255, 255, 1);
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 500px) 
-
 
 .container{
-
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -51,7 +48,7 @@ h2{
 	background-color:  rgba(255, 155, 149, 0.6);
 	box-shadow: 4px 4px 5px rgba(255, 155, 149, 0.7);
 	font-style: none;
-	font-size: 4vw; /*2em;*/
+	font-size: 2.5vw; /*2em;*/
 	border-style: none;
 	border-bottom: 2px;
 	border-right: 2px;
@@ -102,12 +99,14 @@ h2{
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+
+
 }
 
 .sidenav a {
   padding: 8px 8px 8px 8px;
   text-decoration: none;
-  font-size: 2.8vw; /*25px;*/ /*el van csuszva javitani kell*/
+  font-size: 2vw; /*25px;*/ /*el van csuszva javitani kell*/
   color: white;
   display: block;
   transition: 0.3s;
@@ -120,21 +119,10 @@ h2{
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 5vw; /*36px;*/
+  font-size: 3vw; /*36px;*/
   margin-left: 50px;
 }
 
-
-/*@media only screen and (min-width: 600px) {
-   .menu li {width: 25%;}
-   .dropdown-content li {width: 25%;}
-   .drpd-usa li {width: 25%;} 
-}
-@media only screen and (min-width: 768px) {
-	.menu li {width: 25%;}
-	.dropdown-content li {width: 25%;}
-	.drpd-usa li {width: 25%;}
-}*/
 /*//////SUB MENU//////*/
 
 .dropdown-content {
@@ -143,25 +131,27 @@ h2{
   overflow-x: hidden;
   right:0;
   left:100%;
-  min-width: 160px;
-  margin-top:-44px;
-  padding-right: 265px;
-  padding-left: 20px;
+  min-width: 50vw;/*160px;*/
+ /* margin-top:-3.45vw; -47px;*/
+  padding-right: 1vw; /*265px;
+  padding-left: 2vw; /*20px;*/
   visibility: hidden;
   opacity: 0;
   transition: all 0.5s ease 3s;
-  z-index:-1;
+  z-index:0;
+  position: absolute;
+
 }
 .dropdown-content li {
 	margin-left: 0px;
-	width: 200px;
+	width: 50vw;/* 200px; *//*!!!!!!!!*/
 }
 .dropdown-content a {
   font-family: Didot, serif;
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: 2vw;/*22px;*/
+  font-size: 1.7vw;/*22px;*/
   text-decoration: none;
 }
 
@@ -173,35 +163,46 @@ h2{
   right:0;
   left:100%;
  
- position: absolute;
-z-index:1;
-  min-width: 160px;
-  margin-top:-40px;
-  margin-left: -20px;
+  position: absolute;
+  z-index:0;
+  min-width: 50vw;/*160px;*/
+  margin-top:-3.45vw;/*-40px;*/
+  margin-left: -2vw; /*-20px;*/
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
+  padding-right: 1vw;
+
 }
 .drpd-usa li{
 	margin-left: 0px;
+  width: 50vw;
 }
 
 .drpd-usa a{
 	color: white;
-  font-size: 2vw; /*22px;*/
+  font-size: 1.7vw; /*22px;*/
   text-decoration: none;
   text-align: center;
 }
 
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+/*@media only screen and (min-width: 320px)  {
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 5vw;}
-  .dropdown-content a {font-size: 5vw;}
-  .drpd-usa a {font-size: 5vw;}
+  .sidenav a {font-size: 350%;}
+  .dropdown-content a {font-size: 250%;}
+  .dropdown-content { min-width: 450%;}
+  .drpd-usa a {font-size: 250%}
+  .drpd-usa  { min-width: 450%;}
 
-}
+
+/*.dropdown-content a {font-size: 4.5vw;}
+  .dropdown-content { min-width: 100vw;}
+  .drpd-usa a {font-size: 4.5vw;}
+  .drpd-usa  { min-width: 70vw; margin-right: 20vw;}
+*/
+
 @media only screen and (min-width: 600px) {
    .menu li {width: 25%;}
    .dropdown-content li {width: 25%;}
@@ -212,6 +213,9 @@ z-index:1;
   .dropdown-content li {width: 25%;}
   .drpd-usa li {width: 25%;}
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {}
+
+
 /*/////HOVER///////*/
 
 .menu li:hover .dropdown-content {
