@@ -216,7 +216,7 @@ h2{
 @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
   .sidenav li {height: 120px; margin-left: 0px;}
   .sidenav a {font-size: 3em; text-align: center;}
-  .dropdown-content {margin-top: -70px; height: 1000px;}
+  .dropdown-content {margin-top: -73px; height: 1000px;}
   .dropdown-content li {height: 140px; width: 350px;}
   .drpd-usa {margin-top: -70px;}
   .drpd-usa li {height: 100px; width: 300px; margin-left: 5px; }
