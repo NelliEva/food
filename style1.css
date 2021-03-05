@@ -3,9 +3,12 @@ body{
 	/*background-color: rgba(255, 155, 149, 0.5);*/
 	background-color: rgba(255, 255, 255, 1);
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 500px)
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) 
+
 
 .container{
+
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -48,7 +51,7 @@ h2{
 	background-color:  rgba(255, 155, 149, 0.6);
 	box-shadow: 4px 4px 5px rgba(255, 155, 149, 0.7);
 	font-style: none;
-	font-size: 2em;
+	font-size: 4vw; /*2em;*/
 	border-style: none;
 	border-bottom: 2px;
 	border-right: 2px;
@@ -64,6 +67,12 @@ h2{
     display: inline-block;
     outline: none;
 }
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  .dropbtn {font-size: calc(2em + 6 * ((100vw - 320px) / 680));}
+}body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+*/
 .dropbtn:hover {
   background-color: rgba(255, 155, 149, 1);
 }
@@ -81,6 +90,7 @@ h2{
 	margin-bottom: 5px;
 }
 
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -97,26 +107,25 @@ h2{
 .sidenav a {
   padding: 8px 8px 8px 8px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2.8vw; /*25px;*/ /*el van csuszva javitani kell*/
   color: white;
   display: block;
   transition: 0.3s;
 }
-
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  .sidenav a {font-size: calc(25px + 6 * ((100vw - 320px) / 680));}
+}
+*/
 .sidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  font-size: 5vw; /*36px;*/
   margin-left: 50px;
 }
 
-@media only screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 30px;}
 
-}
-@media only screen and (min-width: 600px) {
+/*@media only screen and (min-width: 600px) {
    .menu li {width: 25%;}
    .dropdown-content li {width: 25%;}
    .drpd-usa li {width: 25%;} 
@@ -125,7 +134,7 @@ h2{
 	.menu li {width: 25%;}
 	.dropdown-content li {width: 25%;}
 	.drpd-usa li {width: 25%;}
-}
+}*/
 /*//////SUB MENU//////*/
 
 .dropdown-content {
@@ -152,7 +161,7 @@ h2{
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: 22px;
+  font-size: 2vw;/*22px;*/
   text-decoration: none;
 }
 
@@ -179,11 +188,30 @@ z-index:1;
 
 .drpd-usa a{
 	color: white;
-  font-size: 22px;
+  font-size: 2vw; /*22px;*/
   text-decoration: none;
   text-align: center;
 }
 
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 5vw;}
+  .dropdown-content a {font-size: 5vw;}
+  .drpd-usa a {font-size: 5vw;}
+
+}
+@media only screen and (min-width: 600px) {
+   .menu li {width: 25%;}
+   .dropdown-content li {width: 25%;}
+   .drpd-usa li {width: 25%;} 
+}
+@media only screen and (min-width: 768px) {
+  .menu li {width: 25%;}
+  .dropdown-content li {width: 25%;}
+  .drpd-usa li {width: 25%;}
+}
 /*/////HOVER///////*/
 
 .menu li:hover .dropdown-content {
@@ -209,3 +237,9 @@ z-index:1;
 }
 
 
+/*
+@media screen and (min-width: 75em) {
+  html {
+    font-size: 1.5em;
+  }
+}*/
