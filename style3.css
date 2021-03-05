@@ -87,7 +87,7 @@ li{
 @media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
   .container {display: block; }
   .pic{height: 600px;}
-   img{ width: 450px; height: 450px; padding-bottom: 30px;}
+   img{ width: 450px; height: 450px; padding-bottom: 20px;}
    h2 {font-size: 5vw; }
    h1 {font-size: 6vw; height: 90px;}
    li{height: 50px; width: 100px;}
