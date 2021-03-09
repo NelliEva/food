@@ -1,9 +1,7 @@
 body{
 	margin: 0px;
-	/*background-color: rgba(255, 155, 149, 0.5);*/
 	background-color: rgba(255, 255, 255, 1);
 }
-
 
 .container{
 	display: flex;
@@ -64,12 +62,7 @@ h2{
     display: inline-block;
     outline: none;
 }
-/*@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
-  .dropbtn {font-size: calc(2em + 6 * ((100vw - 320px) / 680));}
-}body {
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-}
-*/
+
 .dropbtn:hover {
   background-color: rgba(255, 155, 149, 1);
 }
@@ -86,7 +79,6 @@ h2{
 	margin-right: 500px;
 	margin-bottom: 5px;
 }
-
 
 .sidenav {
   height: 100%;
@@ -106,15 +98,12 @@ h2{
 .sidenav a {
   padding: 8px 8px 8px 8px;
   text-decoration: none;
-  font-size: 25px;/*el van csuszva javitani kell*/
+  font-size: 25px;
   color: white;
   display: block;
   transition: 0.3s;
 }
-/*@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
-  .sidenav a {font-size: calc(25px + 6 * ((100vw - 320px) / 680));}
-}
-*/
+
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -144,7 +133,7 @@ h2{
 }
 .dropdown-content li {
 	margin-left: 0px;
-	width: 100px; /*!!!!!!!!*/
+	width: 100px; 
 }
 .dropdown-content a {
   font-family: Didot, serif;
@@ -156,13 +145,11 @@ h2{
 }
 
 /*//////SUB-SUB MENU//////*/
-
 .drpd-usa {
   display: none;
   overflow-x: hidden;
   right:0;
   left:100%;
- 
   position: absolute;
   z-index:0;
   min-width: 560px;
@@ -171,8 +158,6 @@ h2{
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
- 
-
 }
 .drpd-usa li{
 	margin-left: 0px;
@@ -185,23 +170,6 @@ h2{
   text-decoration: none;
   text-align: center;
 }
-
-
-
-/*@media only screen and (min-width: 320px)  {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 350%;}
-  .dropdown-content a {font-size: 250%;}
-  .dropdown-content { min-width: 450%;}
-  .drpd-usa a {font-size: 250%}
-  .drpd-usa  { min-width: 450%;}
-
-
-/*.dropdown-content a {font-size: 4.5vw;}
-  .dropdown-content { min-width: 100vw;}
-  .drpd-usa a {font-size: 4.5vw;}
-  .drpd-usa  { min-width: 70vw; margin-right: 20vw;}
-*/
 /*/////////PHONE////////////////////////////////////////////////////////////////*/
 @media only screen and (min-width: 600px) {
    .menu li {width: 25%;}
@@ -218,7 +186,7 @@ h2{
   .sidenav a {font-size: 3em; text-align: center;}
   .dropdown-content {margin-top: -70px; height: 1000px;}
   .dropdown-content li {height: 140px; width: 350px;}
-  .drpd-usa {margin-top: -70px;}
+  .drpd-usa {margin-top: -72px;}
   .drpd-usa li {height: 100px; width: 300px; margin-left: 5px; }
   .container {display: block; }
   .pic{height: 600px;}
@@ -254,9 +222,3 @@ h2{
 }
 
 
-/*
-@media screen and (min-width: 75em) {
-  html {
-    font-size: 1.5em;
-  }
-}*/
