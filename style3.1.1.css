@@ -75,7 +75,10 @@ li{
    img{ width: 500px; height: 500px; padding-bottom: 20px; padding-top: 40px;}
    h2 {font-size: 3vw; }
    h1 {font-size: 9vw;padding-top: 50px; padding-left: 40px;}
-   .nav li{height: 80px; width: 140px;margin-right: 0px; margin-bottom: 10px; display: inline-block;}
-   .nav a{font-size: 2em; text-align: center;}
+   .nav li{ justify-content: center; height: 100px; width: 190px;
+   	margin: auto; text-align: center; padding-top: 30px; margin-left: 2px; margin-right: 2px; margin-top: 20px;
+   	display: inline-block;}
+   .nav a{font-size: 40px; font-weight: bold; }
+
 
    }
